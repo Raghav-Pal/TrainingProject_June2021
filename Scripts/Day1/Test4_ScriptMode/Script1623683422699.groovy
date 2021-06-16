@@ -26,7 +26,7 @@ WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_LOGIN Panel
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_OrangeHRM/input_Username_txtPassword'), 'hUKwJTbofgPU9eVlw/CnDQ==')
 
 // WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_Username_txtPassword'), 'admin123')
-WebUI.click(findTestObject('Page_CURA Healthcare Service/a_Make Appointment'))
+WebUI.click(findTestObject('Page_OrangeHRM/input_Password_Submit'))
 
 WebUI.delay(2)
 
