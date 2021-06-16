@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RecordOnActiveBrowser</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d469c5a7-aa07-4a79-b179-c48017ec76e6</testCaseGuid>
+   <variable>
+      <defaultValue>'Admin'</defaultValue>
+      <description></description>
+      <id>a852ba67-473a-47b2-b6cb-992f686b9514</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+</TestCaseEntity>
