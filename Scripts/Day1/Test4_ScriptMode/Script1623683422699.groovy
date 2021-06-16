@@ -30,5 +30,7 @@ WebUI.click(findTestObject('Page_OrangeHRM/input_Password_Submit'))
 
 WebUI.delay(2)
 
+WebUI.verifyTextPresent('ABC123', false)
+
 WebUI.closeBrowser()
 
