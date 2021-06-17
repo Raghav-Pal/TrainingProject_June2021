@@ -21,9 +21,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://the-internet.herokuapp.com/')
 
-WebUI.click(findTestObject('Object Repository/Page_The Internet/a_JavaScript Alerts'))
+WebUI.click(findTestObject('WEB/Page_The Internet/a_JavaScript Alerts'))
 
-WebUI.click(findTestObject('Object Repository/Page_The Internet/button_Click for JS Prompt'))
+WebUI.click(findTestObject('WEB/Page_The Internet/button_Click for JS Prompt'))
 
 WebUI.waitForAlert(5)
 
@@ -35,7 +35,7 @@ WebUI.delay(2)
 
 WebUI.acceptAlert()
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_The Internet/p_You entered null'), 'You entered: Automation')
+WebUI.verifyElementText(findTestObject('WEB/Page_The Internet/p_You entered null'), 'You entered: Automation')
 
 WebUI.closeBrowser()
 

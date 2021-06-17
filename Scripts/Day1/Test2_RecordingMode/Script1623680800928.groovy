@@ -23,30 +23,30 @@ WebUI.navigateToUrl('https://trytestingthis.netlify.app/')
 
 WebUI.verifyTextPresent('ABC123', false, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/Page_Try Testing This/input_First name_fname'), 'Raghav')
+WebUI.setText(findTestObject('WEB/Page_Try Testing This/input_First name_fname'), 'Raghav')
 
-WebUI.setText(findTestObject('Object Repository/Page_Try Testing This/input_Last name_lname'), 'Pal')
+WebUI.setText(findTestObject('WEB/Page_Try Testing This/input_Last name_lname'), 'Pal')
 
-WebUI.click(findTestObject('Object Repository/Page_Try Testing This/input_Gender_gender'))
+WebUI.click(findTestObject('WEB/Page_Try Testing This/input_Gender_gender'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Try Testing This/select_Option                  Option 1    _1847e3'), 
+WebUI.selectOptionByValue(findTestObject('WEB/Page_Try Testing This/select_Option                  Option 1    _1847e3'), 
     'option 2', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Try Testing This/select_Choose multiple options             _cdf8f3'), 
+WebUI.selectOptionByValue(findTestObject('WEB/Page_Try Testing This/select_Choose multiple options             _cdf8f3'), 
     'option 2', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Try Testing This/select_Choose multiple options             _cdf8f3'), 
+WebUI.selectOptionByValue(findTestObject('WEB/Page_Try Testing This/select_Choose multiple options             _cdf8f3'), 
     'option 3', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Try Testing This/select_Choose multiple options             _cdf8f3'), 
+WebUI.selectOptionByValue(findTestObject('WEB/Page_Try Testing This/select_Choose multiple options             _cdf8f3'), 
     'option 3', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Try Testing This/select_Choose multiple options             _cdf8f3'), 
+WebUI.selectOptionByValue(findTestObject('WEB/Page_Try Testing This/select_Choose multiple options             _cdf8f3'), 
     'option 2', true)
 
-WebUI.click(findTestObject('Object Repository/Page_Try Testing This/input_Option 1_option2'))
+WebUI.click(findTestObject('WEB/Page_Try Testing This/input_Option 1_option2'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Try Testing This/input_Start typing and it till automaticall_25c4d8'), 
+WebUI.setText(findTestObject('WEB/Page_Try Testing This/input_Start typing and it till automaticall_25c4d8'), 
     'Strawberry')
 
 WebUI.closeBrowser()

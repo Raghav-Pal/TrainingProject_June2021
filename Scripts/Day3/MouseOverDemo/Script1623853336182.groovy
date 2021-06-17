@@ -21,21 +21,21 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.katalon.com/')
 
-WebUI.mouseOver(findTestObject('Object Repository/Page_Katalon  Simplify Web, API, Mobile, De_2f1b85/a_Products'))
+WebUI.mouseOver(findTestObject('WEB/Page_Katalon  Simplify Web, API, Mobile, De_2f1b85/a_Products'))
 
 WebUI.delay(1)
 
-WebUI.mouseOver(findTestObject('Object Repository/Page_Katalon  Simplify Web, API, Mobile, De_2f1b85/a_Resources'))
+WebUI.mouseOver(findTestObject('WEB/Page_Katalon  Simplify Web, API, Mobile, De_2f1b85/a_Resources'))
 
 WebUI.verifyTextPresent('Community', false)
 
 WebUI.delay(1)
 
-WebUI.mouseOver(findTestObject('Object Repository/Page_Katalon  Simplify Web, API, Mobile, De_2f1b85/a_Company'))
+WebUI.mouseOver(findTestObject('WEB/Page_Katalon  Simplify Web, API, Mobile, De_2f1b85/a_Company'))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/Page_Katalon  Simplify Web, API, Mobile, De_2f1b85/div_About Katalon'))
+WebUI.click(findTestObject('WEB/Page_Katalon  Simplify Web, API, Mobile, De_2f1b85/div_About Katalon'))
 
 WebUI.closeBrowser()
 

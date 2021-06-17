@@ -21,9 +21,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://trytestingthis.netlify.app/')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Try Testing This/h4_This is your sample Form'), 0)
+WebUI.verifyElementPresent(findTestObject('WEB/Page_Try Testing This/h4_This is your sample Form'), 0)
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Try Testing This/input_Last name_lname'))
+WebUI.verifyElementClickable(findTestObject('WEB/Page_Try Testing This/input_Last name_lname'))
 
 WebUI.closeBrowser()
 

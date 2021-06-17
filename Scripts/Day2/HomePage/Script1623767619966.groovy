@@ -19,17 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Day2/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/b_Admin'))
+WebUI.click(findTestObject('WEB/Page_OrangeHRM/b_Admin'))
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/b_Time'))
+WebUI.click(findTestObject('WEB/Page_OrangeHRM/b_Time'))
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/b_My Info'))
+WebUI.click(findTestObject('WEB/Page_OrangeHRM/b_My Info'))
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/b_Dashboard'))
+WebUI.click(findTestObject('WEB/Page_OrangeHRM/b_Dashboard'))
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/a_Welcome Latha'))
+WebUI.click(findTestObject('WEB/Page_OrangeHRM/a_Welcome Latha'))
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/a_Logout'))
+WebUI.click(findTestObject('WEB/Page_OrangeHRM/a_Logout'))
 
 WebUI.closeBrowser()
 

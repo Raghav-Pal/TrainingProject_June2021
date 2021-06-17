@@ -21,9 +21,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://the-internet.herokuapp.com/')
 
-WebUI.click(findTestObject('Object Repository/Page_The Internet/a_JavaScript Alerts'))
+WebUI.click(findTestObject('WEB/Page_The Internet/a_JavaScript Alerts'))
 
-WebUI.click(findTestObject('Object Repository/Page_The Internet/button_Click for JS Confirm'))
+WebUI.click(findTestObject('WEB/Page_The Internet/button_Click for JS Confirm'))
 
 WebUI.waitForAlert(5)
 
@@ -31,7 +31,7 @@ WebUI.dismissAlert()
 
 WebUI.delay(2)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_The Internet/p_You clicked Cancel'), 'You clicked: Cancel')
+WebUI.verifyElementText(findTestObject('WEB/Page_The Internet/p_You clicked Cancel'), 'You clicked: Cancel')
 
 WebUI.closeBrowser()
 
